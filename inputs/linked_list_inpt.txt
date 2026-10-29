@@ -1,0 +1,55 @@
+int num_waiting_north=0
+
+int num_waiting_sount=0
+
+condition=free
+int on_bridge=0
+int prev=-1
+
+
+void entry_bridge_north(){
+
+  num_waiting_north++;
+
+  while(on_bridge || (prev || num_waiting_south>0)){
+    free.wait();
+  }
+
+  num_waiting_north--;
+  on_bridge+=1;
+  prev=0;
+
+}
+
+void exit_bridge_north(){
+
+  on_bridge--;
+  if(on_bridge==0){
+    free.signal();
+  }
+  
+}
+
+void entry_bridge_south(){
+
+  num_waiting_south++;
+
+  while(on_bridge ||(prev==1 && (num_waiting_north>0))){
+    free.wait();
+  }
+
+  num_waiting_south--;
+  on_bridge+=1
+  prev=1;
+  
+}
+
+void exit_bridge_south(){
+
+  on_bridge--;
+  if(on_bridge==0){
+    free.signal();
+  }
+
+  
+}

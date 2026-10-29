@@ -1,0 +1,90 @@
+the combination is 10
+the permutation is 20
+
+the combination is 1
+the permutation is 1
+
+the combination is 1
+the permutation is 120
+
+the combination is 5
+the permutation is 5
+
+the combination is 120
+the permutation is 720
+
+the combination is 120
+the permutation is 604800
+
+the combination is 20
+the permutation is 120
+
+the combination is 70
+the permutation is 1680
+
+the combination is 924
+the permutation is 665280
+
+the combination is 184756
+the permutation is 670442572800
+
+the combination is 21
+the permutation is 42
+
+the combination is 7
+the permutation is 5040
+
+the combination is 15
+the permutation is 15
+
+the combination is 15
+the permutation is 1307674368000
+
+the combination is 1
+the permutation is 1
+
+the combination is 1
+the permutation is 1
+
+the combination is 1
+the permutation is 1
+
+the combination is 0
+the permutation is 0
+
+the combination is 0
+the permutation is 0
+
+the combination is 0
+the permutation is 0
+
+the combination is 2
+the permutation is 2
+
+the combination is 3
+the permutation is 6
+
+the combination is 6
+the permutation is 12
+
+the combination is 84
+the permutation is 504
+
+the combination is 53130
+the permutation is 6375600
+
+the combination is 155117520
+the permutation is -70979879077707776
+
+the combination is 1225
+the permutation is 2450
+
+the combination is 100
+the permutation is 100
+
+the combination is 1
+the permutation is 3628800
+
+the combination is 1
+the permutation is 1
+
