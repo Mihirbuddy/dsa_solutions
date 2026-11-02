@@ -4,18 +4,19 @@ using namespace std;
 
 typedef long long ll;
 
-ll solve(int a, int b)
+typedef long long ll;
+typedef __int128 LL;
+
+ll solve(ll a, ll b, ll mod)
 {
-
-  
   if (b == 0)
-    return 1;
+    return 1 % mod;
 
-  ll half = solve(a, b / 2);
-  ll result = half * half;
+  ll half = solve(a, b / 2, mod);
+  ll result = (ll)((LL)half * half % mod);       // mod ke saath square
 
   if (b % 2 == 1)
-    result = a * result;
+    result = (ll)((LL)(a % mod) * result % mod); // mod ke saath ek aur a
 
   return result;
 }
